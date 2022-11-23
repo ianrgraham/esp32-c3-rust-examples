@@ -1,0 +1,17 @@
+[package]
+name = "rgb"
+version = "0.1.0"
+authors = ["Ian Graham <irgraham1@gmail.com>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+esp32c3-hal = { version = "0.3.0", features = ["smartled"] }
+esp-backtrace = { version = "0.3.0", features = ["esp32c3", "panic-handler", "print-uart"] }
+esp-println = { version = "0.3.1", features = ["esp32c3"] }
+riscv-rt = { version = "0.10", optional = true }
+smart-leds = "0.3.0"
+
+[features]
+default = ["rt"]
+rt = ["riscv-rt"]
