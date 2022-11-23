@@ -42,6 +42,6 @@ cd no-std/rgb
 cargo espflash --release --monitor
 ```
 
-## Other resources
+## Other Resources
 
 - [Ferrous Systems Training Examples](https://espressif-trainings.ferrous-systems.com/)
