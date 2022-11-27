@@ -1,0 +1,11 @@
+{
+    // "rust-analyzer.cargo.extraEnv": {
+    //     "ESP_IDF_SYS_ROOT_CRATE": "esp32-c3-rust-examples"
+    // }
+    "rust-analyzer.linkedProjects": [
+        "no-std/rgb/Cargo.toml",
+        "std/hello-world/Cargo.toml",
+        "std/rgb/Cargo.toml",
+        "std/wifi-blink/Cargo.toml"
+    ]
+}
